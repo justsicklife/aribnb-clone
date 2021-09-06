@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: hotpink;
+  --hc-sm-height: 488;
+  --hc-sm-width: 375;
+  --hc-md-height: 588;
+  --hc-md-width: 744;
+  --hc-lg-height: 626;
+  --hc-lg-width: 1128;
+  --rem-2: 2rem;
+  --rem-1-5: 1.5rem;
+  --rem-1: 1rem;
+}
