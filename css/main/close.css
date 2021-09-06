@@ -1,0 +1,22 @@
+.close__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: var(--rem-1);
+  grid-row-gap: var(--rem-1);
+}
+
+.close__item {
+  display: flex;
+  align-items: center;
+}
+
+.close__name {
+  font-size: var(--rem-1);
+}
+
+.close__image {
+  width: 64px;
+  border-radius: 20%;
+  margin-right: var(--rem-1);
+}
