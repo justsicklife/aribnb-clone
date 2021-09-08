@@ -1,0 +1,21 @@
+.find__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+}
+
+.find__image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.find__title {
+  font-size: 1.1em;
+  word-break: keep-all;
+}
+
+.find__desc {
+  margin-top: 0.2em;
+  font-size: 0.8em;
+  word-break: keep-all;
+}
