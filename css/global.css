@@ -12,7 +12,10 @@
   --hc-md-width: 744;
   --hc-lg-height: 626;
   --hc-lg-width: 1128;
+  /* --hc-xlg-height: 626; */
+  --hc-xlg-width: 1440;
   --rem-2: 2rem;
+  --rem-2-5: 2.5rem;
   --rem-1-5: 1.5rem;
   --rem-1: 1rem;
 }

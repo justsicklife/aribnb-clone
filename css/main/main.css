@@ -1,7 +1,24 @@
 .section__box {
-  padding: 25px 150px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  /* padding-left: 24px;
+  padding-right: 24px; */
 }
 .section__header-title {
   padding-bottom: 20px;
   font-size: var(--rem-2);
+}
+
+@media screen and (min-width: 744px) {
+  .section__box {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (min-width: 1128px) {
+  .section__box {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
 }
