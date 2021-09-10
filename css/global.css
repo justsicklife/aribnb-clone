@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+ul,
+ol {
+  list-style: none;
+}
+
 :root {
   --main-color: hotpink;
   --hc-sm-height: 488;

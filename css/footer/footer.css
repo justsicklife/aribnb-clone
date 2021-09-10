@@ -1,35 +1,34 @@
-.section__box {
+.footer__box {
   padding-top: 25px;
   padding-bottom: 25px;
-}
-.section__header-title {
-  padding-bottom: 20px;
-  font-size: var(--rem-2);
+  background: rgb(247, 247, 247);
+  border-top: 1px solid #dddddd;
+  margin-top: 30px;
 }
 
 @media screen and (max-width: 743px) {
-  .section__box {
+  .footer__box {
     padding-left: 20px;
     padding-right: 20px;
   }
 }
 
-@media screen and (min-width: 744px) and (max-width: 1127px) {
-  .section__box {
+@media screen and (min-width: 744px) {
+  .footer__box {
     padding-left: 40px;
     padding-right: 40px;
   }
 }
 
-@media screen and (min-width: 1128px) and (max-width: 1280px) {
-  .section__box {
+@media screen and (min-width: 1128px) {
+  .footer__box {
     padding-left: 80px;
     padding-right: 80px;
   }
 }
 
 @media screen and (min-width: 1281px) {
-  .section__box {
+  .footer__box {
     padding-left: 160px;
     padding-right: 160px;
   }
